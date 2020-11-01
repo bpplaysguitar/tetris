@@ -131,7 +131,7 @@ function rotate() {
   undraw()
     currentRotation ++
     if (currentRotation === current.length) {
-    //if current rotation gets to 4, set back to 0
+    //if current rotation gets to 4, set it back to 0
         currentRotation = 0
     } 
   current = theTetrominoes[random][currentRotation] 
