@@ -1,3 +1,8 @@
+/* putting the two grid divs into a container with display flex moved the second grid to the right of the first, instead of below it. */
+.container {
+  display: flex;
+}
+
 .grid {
   width: 200px;
   height: 400px;
@@ -13,4 +18,18 @@
 
 .tetromino {
   background-color: blue;
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
 }
