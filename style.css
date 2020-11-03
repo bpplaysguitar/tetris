@@ -49,3 +49,7 @@ body {
   height: 20px;
   width: 20px;
 }
+
+#start-btn {
+  margin-bottom: 10px;
+}
