@@ -1,14 +1,30 @@
+:root {
+  --grid-background: black;
+}
+
 /* putting the two grid divs into a container with display flex moved the second grid to the right of the first, instead of below it. */
 .container {
   display: flex;
+  justify-content: center;
+}
+
+body {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgba(146, 235, 13, 0.4);
+  color: white;
+  font-size: 1.1rem;
 }
 
 .grid {
   width: 200px;
   height: 400px;
-  background-color: yellow;
+  background-color: var(--grid-background);
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
+  /* margin: 0 auto; */
 }
 
 .grid div {
@@ -21,10 +37,10 @@
 }
 
 .mini-grid {
-  margin-left: 50px;
+  margin-left: 20px;
   width: 80px;
   height: 80px;
-  background-color: yellow;
+  background-color: var(--grid-background);
   display: flex;
   flex-wrap: wrap;
 }

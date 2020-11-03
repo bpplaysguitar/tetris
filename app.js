@@ -8,11 +8,11 @@ let nextRandom = 0
 let timerId
 let score = 0
  const colors = [
-   'orange',
-   'red',
-   'purple',
-   'green',
-   'blue'
+   '#80b918',
+   '#FF3CC7',
+   '#F0F600',
+   '#00E5E8',
+   '#007C77'
  ]
 
 // Tetrominoes
