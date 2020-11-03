@@ -7,13 +7,13 @@ const width = 10
 let nextRandom = 0
 let timerId
 let score = 0
-  const colors = [
-    'orange',
-    'red',
-    'purple',
-    'green',
-    'blue'
-  ]
+ const colors = [
+   'orange',
+   'red',
+   'purple',
+   'green',
+   'blue'
+ ]
 
 // Tetrominoes
 const lTetromino = [
@@ -183,7 +183,7 @@ function freeze() {
 // show up-next tetrimino in mini-grid
 const displaySquares = document.querySelectorAll('.mini-grid div')
 const displayWidth = 4
-let displayIndex = 0
+const displayIndex = 0
 
 
 // the Tetrominoes without rotations
@@ -200,7 +200,7 @@ const upNextTetrominoes = [
     //remove any trace of a tetromino form the entire grid
     displaySquares.forEach(square => {
       square.classList.remove('tetromino')
-      square.style.backgroundColor = ''
+      square.style.backgroundColor  = ''
     })
     upNextTetrominoes[nextRandom].forEach( index => {
       displaySquares[displayIndex + index].classList.add('tetromino')
