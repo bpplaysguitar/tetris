@@ -10,6 +10,19 @@
 }
 
 /* putting the two grid divs into a container with display flex moved the second grid to the right of the first, instead of below it. */
+h3 {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -30,7 +43,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: auto;
 }
 
@@ -42,8 +55,8 @@ body {
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
-  transform: translateX(40px);
-  border: 10px solid var(--grid-border);
+  transform: translateX(48px);
+  border: 8px solid var(--grid-border);
   box-shadow: 0 2px 10px 6px rgba(0, 0, 0, 0.75);
 }
 
@@ -59,14 +72,14 @@ body {
 }
 
 .mini-grid {
-  transform: translateX(40px);
+  transform: translateX(48px);
   margin-left: 1em;
   width: 80px;
   height: 80px;
   background-color: var(--grid-background);
   display: flex;
   flex-wrap: wrap;
-  border: 4px solid var(--grid-border);
+  border: 3px solid var(--grid-border);
   box-shadow: 0 2px 10px 6px rgba(0, 0, 0, 0.75);
 }
 
