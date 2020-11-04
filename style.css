@@ -1,5 +1,6 @@
 :root {
   --grid-background: black;
+  --grid-border: #0df;
 }
 
 /* putting the two grid divs into a container with display flex moved the second grid to the right of the first, instead of below it. */
@@ -11,9 +12,14 @@
 body {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: rgba(146, 235, 13, 0.4);
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
   color: white;
   font-size: 1.1rem;
+  margin: auto;
 }
 
 .grid {
@@ -24,7 +30,8 @@ body {
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
-  /* margin: 0 auto; */
+  transform: translateX(40px);
+  border: 10px solid var(--grid-border);
 }
 
 .grid div {
@@ -34,15 +41,19 @@ body {
 
 .tetromino {
   background-color: blue;
+  outline: 1px solid rgb(97, 97, 97);
+  outline-offset: -1px;
 }
 
 .mini-grid {
-  margin-left: 20px;
+  transform: translateX(40px);
+  margin-left: 1em;
   width: 80px;
   height: 80px;
   background-color: var(--grid-background);
   display: flex;
   flex-wrap: wrap;
+  border: 4px solid var(--grid-border);
 }
 
 .mini-grid div {
@@ -51,5 +62,5 @@ body {
 }
 
 #start-btn {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }

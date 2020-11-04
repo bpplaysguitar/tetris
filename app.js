@@ -7,13 +7,17 @@ const width = 10
 let nextRandom = 0
 let timerId
 let score = 0
+
  const colors = [
-   '#80b918',
-   '#FF3CC7',
-   '#F0F600',
-   '#00E5E8',
-   '#007C77'
+   '#fe8103', //l 
+   '#8cd11c', //z 
+   '#ff66f5', //t
+   '#f03944', //o 
+   '#0472e9'  //i
  ]
+
+
+
 
 // Tetrominoes
 const lTetromino = [
