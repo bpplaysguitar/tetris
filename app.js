@@ -16,9 +16,6 @@ let score = 0
    '#0472e9'  //i
  ]
 
-
-
-
 // Tetrominoes
 const lTetromino = [
   [1, width+1, width*2+1, 2],
