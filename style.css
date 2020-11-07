@@ -94,12 +94,37 @@ body {
   border: 3px solid var(--grid-border);
   border-radius: 10px;
   box-shadow: 0 2px 5px 6px rgba(0, 0, 0, 0.75);
+  background-color: var(--grid-background);
+  color: white;
+}
+
+.controls {
+  display: none;
+  margin-top: 15px;
+  transform: translateX(-5px);
+}
+
+#left-btn,
+#rotate-btn,
+#right-btn {
+  padding: 5px 14px;
+  font-size: 1.75rem;
+  border: 2px solid var(--grid-border);
+  border-radius: 10%;
+  background-color: var(--grid-background);
+  color: white;
 }
 
 @media only screen and (max-width: 800px) {
   body {
-    background-image: url(./images/Water-wallpapers-HD-free-download.jpg);
+    background-image: ;
+  }
 
-    color: black;
+  .controls {
+    display: inherit;
+  }
+
+  .controls-text {
+    display: none;
   }
 }
