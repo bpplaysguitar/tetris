@@ -99,7 +99,6 @@ body {
 }
 
 .controls {
-  display: none;
   margin-top: 15px;
   transform: translateX(-5px);
 }
@@ -118,10 +117,6 @@ body {
 @media only screen and (max-width: 800px) {
   body {
     background-image: ;
-  }
-
-  .controls {
-    display: inherit;
   }
 
   .controls-text {
