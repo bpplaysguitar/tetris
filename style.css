@@ -101,18 +101,26 @@ body {
 
 .controls {
   margin-top: 15px;
-  transform: translateX(-5px);
+  display: flex;
+  transform: translateX(-3px);
+  justify-content: center;
 }
 
 #left-btn,
 #rotate-btn,
 #right-btn {
-  padding: 5px 14px;
   font-size: 1.75rem;
   border: 2px solid var(--grid-border);
   border-radius: 10%;
   background-color: var(--grid-background);
   color: white;
+  height: 50px;
+  width: 60px;
+  margin: 0px 5px;
+}
+
+#right-btn {
+  transform: scaleX(-1);
 }
 
 @media only screen and (max-width: 800px) {
