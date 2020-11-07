@@ -94,6 +94,17 @@ function control(e) {
 }
 document.addEventListener('keyup', control)
 
+document.getElementById("left-btn").onclick = function() {
+  moveLeft();
+}
+document.getElementById("right-btn").onclick = function() {
+  moveRight();
+}
+document.getElementById("rotate-btn").onclick = function() {
+  rotate();
+}
+
+
 //move down function
 function moveDown() {
   undraw()
