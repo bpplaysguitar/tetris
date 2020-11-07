@@ -68,7 +68,7 @@ body {
 
 .tetromino {
   background-color: blue;
-  outline: 2px solid rgb(97, 97, 97);
+  outline: 1px solid rgb(97, 97, 97);
   outline-offset: -1px;
 }
 
