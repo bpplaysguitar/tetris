@@ -45,6 +45,7 @@ body {
   color: white;
   font-size: 1rem;
   margin: auto;
+  zoom: 125%;
 }
 
 .grid {
@@ -67,7 +68,7 @@ body {
 
 .tetromino {
   background-color: blue;
-  outline: 1px solid rgb(97, 97, 97);
+  outline: 2px solid rgb(97, 97, 97);
   outline-offset: -1px;
 }
 
