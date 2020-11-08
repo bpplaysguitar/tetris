@@ -58,7 +58,7 @@ body {
   flex-wrap: wrap;
   transform: translateX(48px);
   border: 8px solid var(--grid-border);
-  box-shadow: 0 2px 10px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 2px 6px 3px rgba(0, 0, 0, 0.75);
 }
 
 .grid div {
@@ -81,7 +81,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   border: 3px solid var(--grid-border);
-  box-shadow: 0 2px 10px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 2px 6px 3px rgba(0, 0, 0, 0.75);
 }
 
 .mini-grid div {
@@ -94,7 +94,7 @@ body {
   padding: 4px 6px;
   border: 3px solid var(--grid-border);
   border-radius: 10px;
-  box-shadow: 0 2px 5px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 2px 6px 3px rgba(0, 0, 0, 0.75);
   background-color: var(--grid-background);
   color: white;
 }
@@ -110,13 +110,14 @@ body {
 #rotate-btn,
 #right-btn {
   font-size: 1.75rem;
-  border: 2px solid var(--grid-border);
+  border: 3px solid var(--grid-border);
   border-radius: 10%;
   background-color: var(--grid-background);
   color: white;
   height: 50px;
   width: 60px;
   margin: 0px 5px;
+  box-shadow: 0 2px 6px 3px rgba(0, 0, 0, 0.75);
 }
 
 #right-btn {
